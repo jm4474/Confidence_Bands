@@ -152,4 +152,3 @@ classdef SimInference
     end
          
 end
-
