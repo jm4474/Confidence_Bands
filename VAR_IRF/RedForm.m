@@ -52,4 +52,3 @@ redf.Psi = (redf.eta'*redf.eta)/(size(redf.eta,1));
 
 
 end
-
