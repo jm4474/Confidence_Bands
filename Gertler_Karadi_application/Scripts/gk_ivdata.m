@@ -1,11 +1,9 @@
 %% Load IV data
 
-% Data settings
-iv_file = '../Data/factor_data.csv';
-iv_col = 4; % Column number for external IV
+iv_file = '../Data/factor_data.csv';  % Data settings
 
-% Read from file
-iv_dat = importdata(iv_file);
+iv_col  = 4;                          % Column number for external IV
 
-% Define variable
-Z = iv_dat.data(:,iv_col);
+iv_dat  = importdata(iv_file);        % Read from file
+
+Z       = iv_dat.data(:,iv_col);      % Define variable
