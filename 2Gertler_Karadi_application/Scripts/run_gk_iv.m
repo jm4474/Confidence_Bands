@@ -1,10 +1,19 @@
 clear;
-addpath('../../SimInferenceClass','../../VAR_IRF');
+addpath('../../1SimInferenceClass','../../VAR_IRF');
 
 % Confidence bands for IRFs from Gertler & Karadi (AEJ Macro 2015)
 % External IV identification
+% (Figure 2 in the paper)
 
-% This version: August 15, 2017
+% This script takes approximately 2.5 minutes to run 
+% on a Macbook Pro 
+%         @2.4 GHz Intel Core i7 (8 GB 1600 MHz DDR3)
+% running Matlab R2016b.
+
+% This version: September 15, 2017
+% J. L. Montiel Olea & M. Plagborg-Moller
+
+% This version: September 15, 2017
 % J. L. Montiel Olea & M. Plagborg-Moller
 
 %% Load overall settings and data
