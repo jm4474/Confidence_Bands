@@ -3,6 +3,10 @@ addpath('../../1SimInferenceClass','../../VAR_IRF');
 
 % Confidence bands for IRFs from Gertler & Karadi (AEJ Macro 2015)
 % Recursive identification
+% This script takes approximately 1.5 minutes to run 
+% on a Macbook Pro 
+%         @2.4 GHz Intel Core i7 (8 GB 1600 MHz DDR3)
+% running Matlab R2016b.
 
 % This version: September 15, 2017
 % J. L. Montiel Olea & M. Plagborg-Moller
@@ -131,7 +135,7 @@ end
 
 if numdraws_boot + numdraws_Bayes > 0
 
-    figure('Unit', 'normalize', 'Position', [0.2 0.2 0.6 0.6], 'Name', 'Bands: IV, sup-t');
+    figure('Unit', 'normalize', 'Position', [0.2 0.2 0.6 0.6], 'Name', 'Bands: Cholesky i.d., sup-t');
     
     plot_compare({Theta(sel)'}, bands_supt_band, plot_band_xlabel, plot_band_ylabel, plot_xticks, bands_supt_legend, linestyle_supt_bands(1:length(bands_supt_band)));
 
