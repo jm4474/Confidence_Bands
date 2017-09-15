@@ -236,7 +236,7 @@ classdef SimInference
         %% 8) "Calibrated" Confidence Band
         
         function [Calibrated,x,Cred]=calibrated_Rbands(thetadraws,confidence)
-            %This function "caibrates" the marginal confidence/credibility
+            %This function "calibrates" the marginal confidence/credibility
             %level of the confidence/credible band to achieve a desired 
             %simulatenous confidence/credibility level
             %INPUT
