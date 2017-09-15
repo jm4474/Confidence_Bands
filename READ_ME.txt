@@ -1,0 +1,78 @@
+This readme.txt file was generated on 09/15/2017 by 
+
+José Luis Montiel Olea and Mikkel Plagborg-Moller
+
+----------------------
+i) GENERAL INFORMATION
+----------------------
+
+The folders
+
+1SimInferenceClass
+2Gertler_Karadi_application
+3Head_Mayer_Ries_app
+4Additional_Figures
+Reg_Sens
+VAR_IRF
+
+contain .csv files, Matlab scripts/functions/classes, and STATA do/dta files to generate the figures reported in the paper “Simultaneous Confidence Bands: Theoretical Comparisons and Suggestions for Practice” by José Luis Montiel Olea and Mikkel Plagborg-Moller.  
+
+--------------------------
+ii) HARDWARE/SOFTWARE 
+(specifications and requirements)
+-------------------------- 
+
+All the files have been tested on both:
+ 
+* A MacBook Pro @2.4 GHz Intel Core i7 (8 GB 1600 MHz DDR3) running Matlab 2016b and STATA13.
+
+* A 
+
+--------------------------
+iii) RECOMMENDED CITATION
+-------------------------- 
+
+When using this code please cite:
+
+“Simultaneous Confidence Bands: Theoretical Comparisons and Suggestions for Practice”, Montiel Olea, J.L. and Plagborg-Moller, M; Working Paper, 2017.  
+
+
+---------------------
+iv) DATA & MAIN FILE OVERVIEW
+---------------------
+
+1SimInferenceClass
+    
+This folder contains the “SimInference.m” Matlab class file, which collects different Matlab functions that are used to create the sup-t band, and other popular simultaneous bands (such as Bonferroni, Sidak, and Projection). This Matlab class also contains a simple algorithm to implement the “calibrated” Bootstrap/Bayes sup-t band.    
+
+NOTE: Both applications call the SimInference.m class.      
+
+2Gertler_Karadi_application
+
+This folder contains the .csv files and Matlab scripts to replicate the figures related to the Gertler-Karadi Structural VAR application. The two main files for replication (both in the /Script folder) are:
+
+run_gk_iv.m
+run_gk_chol.m
+
+The first file replicates Figure 2 and the second file Figure 3 in the paper (simply run the files on the matlab command window or section by section). 
+
+NOTE: To generate Figure 7, simply change line 43 and 50 in run_gk_iv.m. To generate Figures 8, simply change line 44 and 51 in run_gk_chol.m 
+
+3Head_Mayer_Ries_application 
+
+This folder contains the main .data/do STAT files and Matlab scripts to replicate the figures related to our sensitivity analysis for the Head-Mayer-Ries application. The main file for replication (in the /Script folder) is:
+
+run_hmr.m
+
+This file generates Figure 4 in the paper.
+
+4Additional_Figures
+
+This folder contains Matlab scripts to replicate Figure 5,6, and 9. 
+ 
+---------------------
+iv) Additional Folders
+---------------------
+
+The folders Reg_Sens and VAR-IRF contain application specific functions for the regression sensitivity analysis and for the VAR application. 
+
