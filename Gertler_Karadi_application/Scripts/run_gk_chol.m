@@ -4,16 +4,14 @@ addpath('../../SimInferenceClass','../../VAR_IRF');
 % Confidence bands for IRFs from Gertler & Karadi (AEJ Macro 2015)
 % Recursive identification
 
-% This version: August 24, 2017
+% This version: September 15, 2017
 % J. L. Montiel Olea & M. Plagborg-Moller
-
 
 %% Load overall settings and data
 
 gk_settings;              % Script to prepare settings
 
 gk_VARdata;               % Script to prepare VAR data
-
 
 %% Cholesky-identification specific settings
 
@@ -55,6 +53,7 @@ linestyle_supt_bands = {'-', '--', '-.'};
 redf                 = RedForm(Y, tau); % Struct redf contains reduced-form VAR objects
                                         % Y  :  vector of VAR variables
                                         % tau:  number of VAR lags
+                                        
 %% Plug-in bands
 
 % Cholesky estimation of IRFs and delta method variance
