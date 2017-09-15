@@ -1,5 +1,5 @@
 clear;
-addpath('../../Reg_Sens', '../../SimInferenceClass');
+addpath('../../Reg_Sens', '../../1SimInferenceClass');
 
 % Confidence bands for sensitivity analysis for Head, Mayer & Ries (JIE 2010)
 % This version: August 27, 2017
