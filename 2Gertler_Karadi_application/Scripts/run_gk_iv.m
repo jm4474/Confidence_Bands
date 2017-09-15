@@ -4,7 +4,7 @@ addpath('../../SimInferenceClass','../../VAR_IRF');
 % Confidence bands for IRFs from Gertler & Karadi (AEJ Macro 2015)
 % External IV identification
 
-% This version: August 15, 2017
+% This version: September 15, 2017
 % J. L. Montiel Olea & M. Plagborg-Moller
 
 %% Load overall settings and data
