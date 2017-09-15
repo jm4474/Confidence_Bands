@@ -3,6 +3,7 @@ addpath('../../1SimInferenceClass','../../VAR_IRF');
 
 % Confidence bands for IRFs from Gertler & Karadi (AEJ Macro 2015)
 % Recursive identification
+% (Figure 3 in the paper)
 % This script takes approximately 1.5 minutes to run 
 % on a Macbook Pro 
 %         @2.4 GHz Intel Core i7 (8 GB 1600 MHz DDR3)
