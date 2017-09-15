@@ -135,7 +135,7 @@ end
 
 if numdraws_boot + numdraws_Bayes > 0
 
-    figure('Unit', 'normalize', 'Position', [0.2 0.2 0.6 0.6], 'Name', 'Bands: Cholesky i.d., sup-t');
+    figure('Unit', 'normalize', 'Position', [0.2 0.2 0.6 0.6], 'Name', 'Bands: Recursive i.d., sup-t');
     
     plot_compare({Theta(sel)'}, bands_supt_band, plot_band_xlabel, plot_band_ylabel, plot_xticks, bands_supt_legend, linestyle_supt_bands(1:length(bands_supt_band)));
 
