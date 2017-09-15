@@ -1,5 +1,5 @@
 clear;
-addpath('../../SimInferenceClass','../../VAR_IRF');
+addpath('../../1SimInferenceClass','../../VAR_IRF');
 
 % Confidence bands for IRFs from Gertler & Karadi (AEJ Macro 2015)
 % Recursive identification
