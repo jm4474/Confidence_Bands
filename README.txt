@@ -73,7 +73,7 @@ NOTE: To run the Matlab file, you must perform the following three steps first:
 a) Download the following zip file: http://econ.sciences-po.fr/sites/default/files/file/tmayer/data/col_regfile09.zip
 b) Unzip the Stata data file "col_regfile09.dta" and place it in the subfolder 3Head_Mayer_Ries_application/Data
 c) Run the Stata do-file create.do in the subfolder 3Head_Mayer_Ries_application/Data
-These steps will create a large .csv file used by the above-mentioned Matlab script "run_hmr.m".
+These steps will create a large .csv file used by the above-mentioned Matlab script "run_hmr.m". The latter file is currently set to draw only 100 bootstrap and Bayes draws, which takes a couple of hours on a personal laptop. To increase the number of draws to 2,000 as in the paper, simply change lines 13 and 14 in "run_hmr.m".
 
 * 4Additional_Figures
 

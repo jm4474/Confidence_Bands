@@ -10,8 +10,8 @@ addpath('../../Reg_Sens', '../../1SimInferenceClass');
 
 % Plug-in, Bayesian, and bootstrap inference
 numdraws_supt = 1e5;    % Number of normal draws used to compute plug-in sup-t crit. val.
-numdraws_boot = 1e2; %1e4    % Set to 0 if bootstrap inference undesired
-numdraws_Bayes = 1e2; %1e4   % Set to 0 if Bayesian inference undesired
+numdraws_boot = 1e2; %2e3    % Set to 0 if bootstrap inference undesired
+numdraws_Bayes = 1e2; %2e3   % Set to 0 if Bayesian inference undesired
 verbose = true;         % Print progress of Bayes/bootstrap procedure
 rng(20170827);          % Seed for random number generator
 
