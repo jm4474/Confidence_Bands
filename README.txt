@@ -11,7 +11,7 @@ The folders
 
 1SimInferenceClass
 2Gertler_Karadi_application
-3Head_Mayer_Ries_app
+3Head_Mayer_Ries_application
 4Additional_Figures
 Reg_Sens
 VAR_IRF
