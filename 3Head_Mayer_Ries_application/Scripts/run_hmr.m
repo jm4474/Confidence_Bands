@@ -2,6 +2,12 @@ clear;
 addpath('../../Reg_Sens', '../../1SimInferenceClass');
 
 % Confidence bands for sensitivity analysis for Head, Mayer & Ries (JIE 2010)
+%(Figure 4 in the paper)
+% This script takes approximately 1.3 hours to run 
+% on a Macbook Pro 
+%         @2.4 GHz Intel Core i7 (8 GB 1600 MHz DDR3)
+% running Matlab R2016b.
+
 % This version: August 27, 2017
 % J. L. Montiel Olea & M. Plagborg-Moller
 
