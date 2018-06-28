@@ -2,7 +2,7 @@ clear;
 
 % Critical value comparison figure
 % "Comparison of critical values for confidence bands"
-% (Figure 6 in the paper)
+% (Figure 4 in the paper)
 
 % This script takes approximately .26 seconds to run 
 % on a Macbook Pro 

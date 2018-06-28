@@ -2,7 +2,7 @@ clear;
 
 % Figure comparing Sidak and mu-projection
 % "Comparison of ?idák and ?-projection critical values"
-% (Figure 9 in the paper)
+% (Figure 5 in the paper)
 
 % This script takes approximately .3 seconds to run 
 % on a Macbook Pro 

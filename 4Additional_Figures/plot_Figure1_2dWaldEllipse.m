@@ -2,7 +2,7 @@ clear;
 
 % Plot 2-D confidence band illustration 
 % "Two-dimensional illustration of Wald ellipse and confidence bands"
-% (Figure 5 in the paper)
+% (Figure 1 in the paper)
 
 % This script takes approximately .5 seconds to run 
 % on a Macbook Pro 
