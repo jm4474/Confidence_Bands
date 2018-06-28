@@ -1,4 +1,4 @@
-﻿This README.txt file was generated on 09/15/2017 by 
+﻿This README.txt file was generated on 06/28/2018 by 
 
 José Luis Montiel Olea and Mikkel Plagborg-Moller
 
@@ -16,7 +16,7 @@ The folders
 Reg_Sens
 VAR_IRF
 
-contain .csv files, Matlab scripts/functions/classes, and STATA do files to generate the figures reported in the paper "Simultaneous Confidence Bands: Theoretical Comparisons and Suggestions for Practice" by José Luis Montiel Olea and Mikkel Plagborg-Moller.  
+contain .csv files, Matlab scripts/functions/classes, and STATA do files to generate the figures reported in the paper "Simultaneous Confidence Bands: Theory, Implementation, and an Application to SVARs" by José Luis Montiel Olea and Mikkel Plagborg-Moller.  
 
 
 --------------------------
@@ -37,7 +37,7 @@ iii) RECOMMENDED CITATION
 
 When using this code please cite:
 
-"Simultaneous Confidence Bands: Theoretical Comparisons and Suggestions for Practice", Montiel Olea, J.L. and Plagborg-Moller, M. Working Paper, 2017.  
+"Simultaneous Confidence Bands: Theory, Implementation, and an Application to SVARs", Montiel Olea, J.L. and Plagborg-Moller, M. Working Paper, 2018.
 
 
 ---------------------
@@ -59,7 +59,7 @@ run_gk_chol.m
 
 The first file replicates Figure 2 and the second file Figure 3 in the paper (simply run the files on the Matlab command window or section by section). 
 
-NOTE: To generate Figure 7, simply change line 43 and 50 in run_gk_iv.m. To generate Figure 8, simply change line 44 and 51 in run_gk_chol.m 
+NOTE: To generate Figure 6, simply change line 43 and 50 in run_gk_iv.m. To generate Figure 7, simply change line 44 and 51 in run_gk_chol.m 
 
 * 3Head_Mayer_Ries_application 
 
@@ -67,7 +67,7 @@ This folder contains the Stata file and Matlab scripts to replicate the figures 
 
 run_hmr.m
 
-This file generates Figure 4 in the paper.
+This file generates Figure 8 in the paper.
 
 NOTE: To run the Matlab file, you must perform the following three steps first:
 a) Download the following zip file: http://econ.sciences-po.fr/sites/default/files/file/tmayer/data/col_regfile09.zip
@@ -77,7 +77,7 @@ These steps will create a large .csv file used by the above-mentioned Matlab scr
 
 * 4Additional_Figures
 
-This folder contains Matlab scripts to replicate Figures 5, 6, and 9.
+This folder contains Matlab scripts to replicate Figures 1, 4, and 5.
 
 
 ---------------------
