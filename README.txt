@@ -1,4 +1,4 @@
-﻿This README.txt file was generated on 06/28/2018 by 
+﻿This README.txt file was generated on 08/08/2018 by 
 
 José Luis Montiel Olea and Mikkel Plagborg-Moller
 
@@ -37,7 +37,7 @@ iii) RECOMMENDED CITATION
 
 When using this code please cite:
 
-"Simultaneous Confidence Bands: Theory, Implementation, and an Application to SVARs", Montiel Olea, J.L. and Plagborg-Moller, M. Working Paper, 2018.
+"Simultaneous Confidence Bands: Theory, Implementation, and an Application to SVARs", Montiel Olea, J.L. and Plagborg-Moller, Journal of Applied Econometrics, 2018.
 
 
 ---------------------
